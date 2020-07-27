@@ -151,7 +151,7 @@ function handleIntersect(entries, observer) {
 function initSearchClick() {
     document.querySelectorAll('.search-btn').forEach((btn) => {
         btn.addEventListener('click', (event) => {
-            window.location.href = "/search.html";
+            window.location.href = "search.html";
         });
     });
 }
